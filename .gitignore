@@ -1,3 +1,4 @@
 .vscode/
 logs/
 py_env/
+__py_cache__/
