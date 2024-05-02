@@ -29,7 +29,7 @@ def postgres_to_gcs(ds_nodash, next_ds_nodash):
     
 
 with DAG(
-    dag_id="dag_wth_postgres_and_gcs_v1",
+    dag_id="dag_with_postgres_and_gcs_v1",
     start_date= datetime(2022, 4, 10),
     schedule_interval="@daily",
     default_args=default_args,
