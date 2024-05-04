@@ -4,3 +4,5 @@ py_env/
 __py_cache__/
 dags/__pycache__/
 minio/
+credentials/*
+!credentials/info.md
